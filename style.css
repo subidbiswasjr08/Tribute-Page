@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+html {
+    font-size: 10px;
+}
+  
+body {
+    font-family: Alata, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    
+}
+  
+h1 {
+    font-size: 6rem;
+    line-height: 1.9;
+    margin-bottom: 0;
+}
+@media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+  
+a {
+    color: #006fd6;
+}
+
+a:hover {
+    color: #ec3434;  
+}
+
+a:visited {
+    color: #00940c;
+}
+  
+#main {
+    margin: 40px 40px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.068);
+}
+
+@media (max-width: 460px) {
+    #main {
+       margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+  
+#img-div {
+    background: #03011de3;
+    padding: 15px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    color: rgb(255, 255, 255);
+    font-family:'URW Chancery L',cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+  
+ul {
+    max-width: 700px;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 18px 15px;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+  
